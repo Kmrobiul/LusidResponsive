@@ -1,0 +1,555 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a,a:hover{
+    text-decoration: none;
+}
+
+/*******************
+*Lucid css code start
+********************/
+/*global title code start */
+.title{
+    width: 100%;
+    padding: 0px 0px 40px ;
+}
+.title h5{
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 32px;
+    font-weight: 700;
+    color: #008ed6;
+    letter-spacing: 3px;
+}
+.title h2{
+    font-size: 52px;
+    line-height: 62px;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+
+/*header-section start*/ 
+
+.header-section{
+    width: 100%;
+    background-image: url("../images/banner.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+   
+}
+.menu{
+    width: 100%;
+}
+.menu .bg-light{
+    background: transparent !important;
+}
+.menu .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0px 0px 0px 20px;
+}
+.menu .navbar-light .navbar-nav .nav-link:hover{
+    background: url("../images/bor.png") center bottom no-repeat;
+    background-size: auto;
+}
+
+.menu .navbar-light .navbar-nav .nav-link.active{
+    background: url("../images/bor.png") center bottom no-repeat;
+    background-size: auto;
+}
+
+.menu .navbar-light .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+
+/*banner code start*/
+.banner{
+    width: 100%;
+    padding: 80px 0px 95px;
+}
+.banner h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 32px;
+    font-weight: 700;
+    color: #008ed6;
+    letter-spacing: 3px;
+}
+.banner h2 {
+    font-size: 52px;
+    line-height: 62px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+.banner p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #999;
+ 
+}
+
+.inner-btn{
+    width: 100%;
+    padding: 40px 0px 0px;
+}
+
+.inner-btn .btn-primary{
+    padding: 12px 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #fff;
+    background: #008ed6; 
+    border-color:#008ed6;
+    border-radius: 5px;
+    margin-right: 25px;
+    transition: 1s;
+}
+.inner-btn .btn-primary:hover, .inner-btn .btn-primary:focus {
+    color: #008ed6;
+    background: transparent; 
+    border-color:#008ed6;
+    
+}
+
+.inner-btn .btn-info{
+    padding: 12px 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #fff;
+    background: transparent; 
+    border-color:#999;
+    border-radius: 5px;
+   transition: 1s;
+}
+
+.inner-btn .btn-info:hover, .inner-btn .btn-info:focus{
+    color: #fff;
+    background: #008ed6; 
+    border-color:#008ed6;
+}
+
+/*feature-section star*/
+.feature-section{
+    width: 100%;
+    padding: 80px 0px;
+} 
+
+.feature-section .title{
+    text-align: center;
+}
+.inner-feature{
+    width: 100%;
+    padding: 35px 35px;
+    text-align: center;
+}
+.inner-feature .icon{
+    width: 110px;
+    height: 110px;
+    line-height: 110px;
+    font-size: 30px;
+    margin: 0px auto 25px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+}
+
+.inner-feature h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
+.inner-feature p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+}
+
+
+/*aboutlong-section cod start*/
+
+.aboutlong-section{
+    width: 100%;
+    padding: 80px 0px;
+    border-top: 1px solid #eee;
+}
+.aboutlong-section .title{
+    margin-top: 40px;
+}
+
+.aboutlong-section .title h2{
+    font-size: 48px;
+}
+.aboutlong-section p{
+    font-size: 14px;
+    color: #999;
+}
+
+.icon-list{
+    width: 100%;
+    display: block;
+    padding: 0px;
+    margin: 35px 0px 0px;
+}
+
+.icon-list li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 0px 0px 10px;
+}
+
+.icon-list li .fa{
+    width: 25px;
+    color: #008ed6;
+}
+
+/*aboutsort-section start*/
+
+.aboutsort-section{
+    width: 100%;
+    padding: 80px 0px;
+    background: #f2f2f2;
+}
+.aboutsort-section .title{
+    margin: 60px 0px 0px;
+}
+
+.aboutsort-section h2{
+    font-size: 36px;
+}
+/*testimonial-section cod start*/
+
+.testimonial-section{
+    width: 100%;
+    padding: 80px 0px;
+    background: url(../images/bac.png) center top no-repeat;
+    background-size: cover;
+}
+
+.testimonial-section .title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.testimonial-section .title h2{
+    color: #fff;
+}
+
+.testimonial-section .owl-theme .item h4{
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.testimonial-section .owl-theme .item .round{
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+}
+
+.testimonial-section .owl-theme .item h5{
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    margin-bottom: 0px;
+}
+.testimonial-section .owl-theme .item p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.testimonial-section .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 70px;
+}
+.see-section{
+    width: 100%;
+    padding: 40px 0px;
+    background: #191919;
+}
+.see-section h2{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    color: #fff;
+    margin-top: 10px;
+}
+.see-section h2 span{
+    font-weight: 700;
+}
+
+.see-section .inner-btn{
+    width: 100%;
+    padding: 0px;
+}
+.see-section .inner-btn .btn-primary{
+    padding: 15px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    background: #008ed6; 
+    border-color:#008ed6;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: 1s;
+}
+.see-section .inner-btn .btn-primary:hover, .inner-btn .btn-primary:focus {
+    color: #008ed6;
+    background: transparent; 
+    border-color:#008ed6;
+    
+}
+
+.see-section .inner-btn .btn-info{
+    padding: 15px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    background: transparent; 
+    border-color:#999;
+    border-radius: 5px;
+   transition: 1s;
+}
+
+.see-section .inner-btn .btn-info:hover, .inner-btn .btn-info:focus{
+    color: #fff;
+    background: #008ed6; 
+    border-color:#008ed6;
+}
+
+/*price-section cod start*/
+.price-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.price-section .title{
+    text-align: center;
+}
+.price-box{
+    width: 100%;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    text-align: center;
+}
+.price-box .price-head{
+    width: 100%;
+    padding: 15px 0px;
+    border-bottom: 1px solid #eee;
+}
+.price-box .price-head h2{
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 0px;
+    transition: 1s;
+}
+.price-box .price-inner{
+    width: 100%;
+    padding: 30px 0px;
+    border-bottom: 1px solid #eee;
+}
+.price-box .price-inner h1{
+    font-size: 52px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 0px
+}
+.price-box .price-inner h1 sup {
+    top: -0.4em;
+    font-size: 32px;
+    font-weight: 500;
+}
+.price-box .price-inner p{
+    
+    font-size: 14px;
+     color: #999;
+    margin: -6px 0px 0px;
+}
+
+.price-content{
+    width: 100%;
+    padding: 35px;
+}
+.price-content p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #999;
+    margin-bottom: 35px;
+}
+.price-content p a{
+    color: #008ed6;
+    font-weight: 700;
+}
+.price-content .btn-info{
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #008ed6;
+    background: transparent; 
+    border-color:#999;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.price-box:hover .price-head h2{
+    color: #008ed6;
+}
+
+.price-box:hover .price-inner{
+    background-color:#008ed6;
+}
+
+.price-box:hover .price-inner h1, .price-box:hover .price-inner p{
+    color:#fff;
+}
+.price-box:hover .price-content .btn-info{
+    color: #fff;
+    background: #008ed6; 
+    border-color:#008ed6; 
+}
+
+/*contact-us cod start*/
+.contact-us{
+    width: 100%;
+    padding: 80px 0px 0px;
+    background: #ededed;
+}
+.contact-us .title{
+    text-align: center;
+
+}
+
+.contact-us .info{
+    width: 100%;
+    text-align: center;
+}
+.contact-us .info .fa{
+    font-size:32px;
+    color: #008ed6; 
+    margin-bottom: 20px
+}
+.contact-us .info p{
+    font-size: 14px;
+    color: #999;
+}
+
+.main-form{
+    width: 100%;
+    padding: 50px 60px 40px;
+    margin-top: 40px;
+    margin-bottom: -70px;
+    background: #191919;
+    position: relative;
+    z-index: 1;
+}
+
+.main-form .form-control{
+    width: 100%;
+    padding: 13px;
+    color: #999;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #999;
+
+}
+
+.text-right{
+    text-align: right;
+}
+
+.main-form .btn-primary{
+    padding: 15px 45px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    background: #008ed6; 
+    border-color:#008ed6;
+    border-radius: 3px;
+    letter-spacing: 3px;
+    transition: 1s;
+}
+
+.main-form .btn-primary:hover, .main-form .btn-primary:focus{
+    color: #008ed6;
+    background: transparent; 
+    border-color:#008ed6;
+    outline: none;
+}
+
+/*footer-section code start*/
+.footer-section{
+    width: 100%;
+    padding: 30px 0px;
+    background: #000;
+}
+
+.footer-section .footer{
+    margin-top: 20px;
+    list-style: none;
+    display: block;
+    text-align: center;
+}
+.footer-section .footer li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+    
+   
+}
+
+.footer-section .footer li a i{
+    color: #9999;
+    transition: 1s;
+}
+.footer-section .footer li :hover{
+    color: #008ed6;
+}
+ 
+
+.footer-section P{
+   text-align: center;
+   
+}
+
+   
+
